@@ -13,7 +13,7 @@ public class PersistenceConfiguration {
         DataSourceBuilder builder = DataSourceBuilder.create();
         builder.url("jdbc:postgresql://localhost:5432/conference_app");
         builder.username("postgres");
-        builder.password("T3mp0r4l");
+        builder.password("T3mp0r4ll");
         return builder.build();
     }
 }
