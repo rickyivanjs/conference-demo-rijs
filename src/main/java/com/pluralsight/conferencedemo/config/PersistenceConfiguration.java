@@ -8,12 +8,12 @@ import javax.sql.DataSource;
 
 @Configuration
 public class PersistenceConfiguration {
-    @Bean
+    /*@Bean
     public DataSource dataSource(){
         DataSourceBuilder builder = DataSourceBuilder.create();
         builder.url("jdbc:postgresql://localhost:5432/conference_app");
         builder.username("postgres");
         builder.password("T3mp0r4l");
         return builder.build();
-    }
+    }*/
 }
